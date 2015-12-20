@@ -1,0 +1,5 @@
+library(knitr)
+ ### Change the base dir where to save figures
+opts_knit$set(base.dir = 'D:/R/RepData_PeerAssessment1')
+knit2html("D:/R/RepData_PeerAssessment1/PA1_template.Rmd", "D:/R/RepData_PeerAssessment1/PA1_template.html")
+
